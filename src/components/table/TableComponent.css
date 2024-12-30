@@ -36,7 +36,7 @@
 }
 
 .styled-table tbody tr:hover {
-    background-color: #f3f3f3;
+    background-color: #f0f0f0;
     cursor: pointer;
 }
 
@@ -265,6 +265,11 @@ select {
 select:hover {
     border-color: #343434;
     background-color: #5d5d5d;
+}
+
+.light-mode select:hover {
+    border-color: #aeaeae;
+    background-color: #f0f0f0;
 }
 
 select:focus {

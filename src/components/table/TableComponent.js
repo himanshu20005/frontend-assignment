@@ -9,7 +9,7 @@ const TableComponent = () => {
     const [recordsPerPage, setRecordsPerPage] = useState(5);
     const [selectedProject, setSelectedProject] = useState(null);
     const [isDarkMode, setIsDarkMode] = useState(false);
-
+    
     // API call to handle responses
     useEffect(() => {
         const fetchProjects = async () => {
